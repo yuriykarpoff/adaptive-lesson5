@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload"  href="fonts/roboto-regular.woff2" as="font" type="font-woff2 crossorigin">
+    <link rel="preload"  href="fonts/roboto-bold.woff2" as="font" type="font-woff2 crossorigin">
     <title>Адаптивная верстка, урок 5</title>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a class="header__logo-link" href="index.html">
+                    <img class="header__logo" src="image/logo.svg" alt="Логотип нашей компании" >
+                </a>
+                <div class="contact">
+                    <div class="contact__phone">
+                        <a class="contact__link" href="tel:79625561234">+7 (962) 556 - 1234</a>
+                    </div>
+                    <button class="contact__callback">Перезвоните мне</button>
+                    <a class="contact__mobile-icon" href="tel:79625561234"><img src="image/phone.svg" alt="Позвонить нам"></a>
+                </div>
+            </div>
+            <div class="header__info">
+                <h1 class="header__info-title">Заголовок c уникальным торговым предложение по системе 4U</h1>
+                <p class="header__info-desc">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+                <p class="header__mobile-desc">Описания предлжения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более.</p>
+                <a class="button-link" href="#">Подробнее</a>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
