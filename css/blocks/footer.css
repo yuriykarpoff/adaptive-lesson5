@@ -1,0 +1,14 @@
+.footer {
+    background-color: #2F324B;
+    max-height: 158px;
+    font-size: 12px;
+    line-height: 17px;
+    color: #ffffff;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0;
+}
