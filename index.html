@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="preload"  href="fonts/Roboto-regular.woff2" as="font" type="font-woff2 crossorigin">
-    <link rel="preload"  href="fonts/Roboto-Medium.woff2" as="font" type="font-woff2 crossorigin">
-    <link rel="preload"  href="fonts/Roboto-bold.woff2" as="font" type="font-woff2 crossorigin">
+    <link rel="preload"  href="fonts/Roboto-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload"  href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload"  href="fonts/Roboto-bold.woff2" as="font" type="font/woff2" crossorigin>
     <title>Адаптивная верстка, урок 5</title>
 </head>
 <body>
     <header class="header">
         <div class="container">
             <div class="header__top">
-                <a class="header__logo-link" href="index.html">
-                    <img class="logo" src="image/logo.svg" alt="Логотип нашей компании" >
-                </a>
+                <div class="logo">
+                    <a class="logo__link" href="index.html">
+                        <img class="logo__image" src="image/logo.svg" alt="Логотип нашей компании" >
+                    </a>
+                </div>
                 <div class="contact">
                     <div class="contact__phone">
                         <a class="contact__link" href="tel:79625561234">+7 (962) 556 - 1234</a>
@@ -86,14 +88,20 @@
     <footer class="footer">
         <div class="container">
             <div class="footer__inner">
-                <img class="logo" src="image/logo.svg" alt="Логотип нашей компании" >
+                <div class="footer__info">
+                    <div class="logo">
+                        <a class="logo__link" href="index.html">
+                            <img class="logo__image" src="image/logo.svg" alt="Логотип нашей компании" >
+                        </a>
+                    </div>
 
-                <div class="footer__copy">
-                    <p class="footer__copy-text">© 2022 XXXcompany.</p>
-                    <p class="footer__copy-text">Все права защищены.</p>
-                </div>
+                    <div class="footer__copy">
+                        <p class="footer__copy-text">© 2022 XXXcompany.</p>
+                        <p class="footer__copy-text">Все права защищены.</p>
+                    </div>
+                </div>       
 
-                <p class="footer__author">Сделано Ивановым Иваном</p>
+                <p class="footer__author"><a href="http://ivanov.ru" target="_blank">Сделано Ивановым Иваном</a></p>
 
                 <div class="contact">
                     <div class="contact__phone">
@@ -103,6 +111,9 @@
                     <a class="contact__mobile-icon" href="tel:79625561234"><img src="image/phone.svg" alt="Позвонить нам"></a>
                 </div>
             </div>
+        </div>
+        <div class="footer__mobile-author">
+            <a href="http://ivanov.ru" target="_blank">Сделано Ивановым Иваном</a>
         </div>
     </footer>
 </body>

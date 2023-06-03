@@ -62,3 +62,43 @@
     border-bottom: 1px solid #15A9CB;
     transition: color 0.4s linear;
 }
+
+@media (max-width: 700px) {
+    .data__text,
+    .data__link {
+        font-size: 16px;
+        line-height: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .data__text,
+    .data__link {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .data {
+        padding: 30px 0;
+    }
+    .data__title {
+        font-size: 20px;
+        line-height: 23px;
+    }
+    .data__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+        margin: 0 0 35px;
+    }
+    .data__form {
+        margin: 0 0 30px;
+    }
+    .data__text,
+    .data__link {
+        font-size: 11px;
+        line-height: 13px;
+    }
+}
