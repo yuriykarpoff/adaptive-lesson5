@@ -1,7 +1,7 @@
 .data {
     background-image: url(../../image/data-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
     position: relative;
     z-index: 0;
@@ -25,9 +25,9 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 41px;
-    text-align: center;
     color: #FFFFFF;
-    margin: 0 0 17px;
+    margin: 3px 0 17px;
+    padding-left: 124px;
 }
 
 .data__subtitle {
@@ -36,7 +36,7 @@
     line-height: 26px;
     text-align: center;
     color: rgba(255, 255, 255, 0.8);
-    margin: 0 0 50px;
+    margin: 0 0 51px;
 }
 
 .data__form {

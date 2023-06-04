@@ -10,7 +10,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 45px 0;
+    padding: 42px 0;
+}
+
+.footer__author {
+    margin-left: -11px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
 }
 
 .footer__info {
