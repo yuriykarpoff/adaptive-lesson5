@@ -1,7 +1,7 @@
 .header {
     background-image: url(../../image/bg-header.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 732px;
+    background-size: 100% 100%;
     background-position: center;
     position: relative;
     z-index: 0;
